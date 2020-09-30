@@ -1,0 +1,40 @@
+body {
+    background: darksalmon;
+}
+
+.box1 {
+    flex-direction: column;
+    display: flex;
+}
+
+.fill {
+    background-image: url(../media/2.jpeg);
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+.hold {
+    border: solid #ccc 4px;
+}
+
+.hovered {
+    background-color: #f4f3f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
