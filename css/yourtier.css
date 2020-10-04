@@ -1,0 +1,136 @@
+.bg {
+    margin:0;
+    padding:0;
+    background-image: url(../media/bg.jpeg);
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.title {
+    margin: auto;
+    height: 60px;
+    width: 400px;
+    background-color: black;
+}
+
+.titleString {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.topChamp {
+    position: relative;
+    height: 120px;
+    width: 120px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.positionRow {
+    /* display: inline-block; */
+    height: 160px;
+    margin: 10px;
+    display: flex;
+}
+
+.teamColor {
+    display: flex;
+}
+
+.redTeam {
+    font-size: 50px;
+    margin: auto;
+    color: red;
+    background-color: white;
+}
+.blueTeam {
+    font-size: 50px;
+    margin: auto;
+    color: blue;
+    background-color: white;
+}
+
+.score {
+    background-image: url(../media/thumbsup.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.score1 {
+    background-image: url(../media/angry.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.score2 {
+    background-image: url(../media/shit.jpg);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.topPosition {
+    background-image: url(../media/top.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.jgPosition {
+    background-image: url(../media/jg.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.midPosition {
+    background-image: url(../media/mid.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.botPosition {
+    background-image: url(../media/bot.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.spPosition {
+    background-image: url(../media/sp.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
